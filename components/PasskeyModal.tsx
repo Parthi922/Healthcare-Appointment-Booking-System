@@ -12,13 +12,13 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
+} from "@/client/components/ui/alert-dialog";
 import {
   InputOTP,
   InputOTPGroup,
   InputOTPSlot,
-} from "@/components/ui/input-otp";
-import { decryptKey, encryptKey } from "@/lib/utils";
+} from "@/client/components/ui/input-otp";
+import { decryptKey, encryptKey } from "@/client/lib/utils";
 
 export const PasskeyModal = () => {
   const router = useRouter();

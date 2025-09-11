@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/client/components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -10,8 +10,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
-import { Appointment } from "@/types/appwrite.types";
+} from "@/client/components/ui/dialog";
+import { Appointment } from "@/client/types/appwrite.types";
 
 import { AppointmentForm } from "./forms/AppointmentForm";
 

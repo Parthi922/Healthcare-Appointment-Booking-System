@@ -7,18 +7,18 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { Form, FormControl } from "@/components/ui/form";
-import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { SelectItem } from "@/components/ui/select";
+import { Form, FormControl } from "@/client/components/ui/form";
+import { Label } from "@/client/components/ui/label";
+import { RadioGroup, RadioGroupItem } from "@/client/components/ui/radio-group";
+import { SelectItem } from "@/client/components/ui/select";
 import {
   Doctors,
   GenderOptions,
   IdentificationTypes,
   PatientFormDefaultValues,
 } from "@/constants";
-import { registerPatient } from "@/lib/actions/patient.actions";
-import { PatientFormValidation } from "@/lib/validation";
+import { registerPatient } from "@/client/lib/actions/patient.actions";
+import { PatientFormValidation } from "@/client/lib/validation";
 
 import "react-datepicker/dist/react-datepicker.css";
 import "react-phone-number-input/style.css";

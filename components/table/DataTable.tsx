@@ -11,7 +11,7 @@ import Image from "next/image";
 import { redirect } from "next/navigation";
 import { useEffect } from "react";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/client/components/ui/button";
 import {
   Table,
   TableBody,
@@ -19,8 +19,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { decryptKey } from "@/lib/utils";
+} from "@/client/components/ui/table";
+import { decryptKey } from "@/client/lib/utils";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
